@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1250px) {
+
+    .username-div {
+        /* background-color: red; */
+        width: 40vw;
+    }
+
+    .username-div input {
+        width: 94%;
+        font-size: 1.3rem;
+        margin: 1rem auto;
+    }
+
+    .username-div label {
+        font-size: 1.8rem;
+    }
+
+    .login-gif {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .username-div {
+        height: 70vh;
+    }
+
+    .username-div label {
+        font-size: 1.7rem;
+    }
+
+    .username-div input {
+        height: 2.3rem;
+        font-size: 1.4rem;
+    }
+
+    .login-text {
+        margin: 2% 0;
+    }
+
+    .signup-button-area button {
+        width: 12vw;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-height: 800px) and (max-height: 900px) {
+    .username-div {
+        height: 80vh;
+    }
+
+    .username-div label {
+        font-size: 1.8rem;
+    }
+
+    .username-div input {
+        height: 2.8rem;
+        font-size: 1.4rem;
+    }
+
+    .login-text {
+        margin: 2% 0;
+    }
+}
+

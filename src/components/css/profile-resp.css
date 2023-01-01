@@ -1,0 +1,237 @@
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main-menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main-menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }   
+}
+
+@media only screen and (max-width: 1850px) {
+    .name {
+        width: 47%;
+    }
+
+    .image-div {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1660px) {
+    .image-div img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .name h1 {
+        font-size: 2.5rem;
+    }
+
+    .profile-details {
+        height: 25%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .image-div img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .name {
+        width: 55%;
+    }
+    .name h1 {
+        font-size: 2.5rem;
+    }
+
+    .profile-details {
+        height: 25%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .name {
+        width: 60%;
+    }
+
+    .name h1 {
+        font-size: 2rem;
+    }
+
+    .name img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .image-div img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .studio-detail-div h3 {
+        font-size: 1.3rem;
+    }
+
+    .views h4 {
+        font-size: 1.3rem;
+    }
+    .followers h4 {
+        font-size: 1.3rem;
+    }
+
+    .studio-name-main img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1190px) {
+    .name {
+        width: 75%;
+    }
+
+    .name h1 {
+        font-size: 2rem;
+    }
+
+    .name img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .image-div img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .studio-detail-div h3 {
+        font-size: 1.3rem;
+    }
+
+    .views h4 {
+        font-size: 1.3rem;
+    }
+    .followers h4 {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+@media only screen and (max-height: 930px) {
+    .project-detail {
+        overflow: scroll;
+        height: 55vh;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (max-height: 730px) {
+    .project-detail {
+        height: 50vh;
+        /* background-color: blue; */
+    }
+}

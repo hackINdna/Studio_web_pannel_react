@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.main_yellow {
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    background-color: #F9D422;
+}
+
+.left_side_menu {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+
+.studio_title {
+    width: 100%;
+    height: 10%;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studio_title > img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-right: 15%;
+    object-fit: cover;
+    
+}
+
+
+
+.studio_name {
+    font-size: 3rem;
+}
+
+.main_menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    /* background-color: red; */
+}
+
+.main_menu > a {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main_menu > a:hover{
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.inbox_selected {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.main_menu > a > .main_menu_content > * {
+    vertical-align: middle;
+}
+
+.main_menu_content > img {
+    margin: 0 20px 0 0;
+}
+
+.main_white {
+    position: absolute;
+    display: flex;
+    width: 79%;
+    height: 95%;
+    left: 20%;
+    top: 0;
+    bottom: 0;
+    transform: translateY(2.5%);
+    border-radius: 3% 0 0 3%;
+    justify-content: space-between;
+    background-color: #F3F7FD;
+}
+
+
+.main_white_left {
+    margin: 3% 2% 3% 3%;
+    width: 75%;
+    height: 92%;    
+    /* background-color: red; */
+}
+
+.title_section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+}
+
+.title_section > img {
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    float: left;
+    margin: 0 3% 0 5%;
+    object-fit: cover;
+}
+
+.chat_section {
+    position: relative;
+    /* overflow-y: auto; */
+    width: 100%;
+    height: 80%;
+    height: 80%;
+    background-color: white;
+}
+
+.chat_input {
+    position: absolute;
+    display: flex;
+    width: 92%;
+    height: 6%;
+    bottom: 0;
+    margin: 2%;
+    padding: 0 2% 0 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    /* background-color: red; */
+}
+
+.chat1 {
+    width: auto;
+    height: 10%;
+    /* position: absolute; */
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    bottom: 30%;
+    justify-content: flex-start;
+    /* background-color: red; */
+}
+
+.chat2 {
+    width: auto;
+    height: 10%;
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    bottom: 15%;
+    justify-content: right;
+    /* background-color: blue; */
+}
+
+.chat1 > img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: 0 2%;
+    object-fit: cover;
+}
+
+.chat2 > img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: 0 2%;
+    object-fit: cover;
+}
+
+.yellow_color_msg {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 1% 2%;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.chat_input  input {
+    width: 91%;
+    height: 100%;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0 2%;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.main_white_right {
+    margin: 3% 3% 3% 0;
+    width: 20%;
+    height: 92%;
+    /* background-color: orange; */
+}
+
+.search_section {
+    width: 100%;
+    height: 6%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    background-color: white;
+}
+
+.search_section > input {
+    width: 96%;
+    height: 100%;
+    margin: 0;
+    border: none;
+    padding: 0 2%;
+    border-radius: 5px;
+}
+
+.main_white_right_bottom {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 20%; */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.people_list {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    background-color: white;
+}
+
+.people_list > img{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    margin: 0 5% 0 10%;
+    object-fit: cover;
+}
+
+
+
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main_menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main_menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+    
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio_name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio_name {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        margin: 0 15% 0 0;
+        font-size: 1.3rem;
+    }
+
+    .content > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .people_list {
+        font-size: 1rem;
+    }
+
+    .people_list > img {
+        margin: 0 5%;
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    
+
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio_name {
+        font-size: 2rem;
+    }
+
+    .people_list {
+        font-size: 1rem;
+    }
+
+    .people_list > img {
+        margin: 0 5%;
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .chat1 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .chat2 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .title_section {
+        height: 6%;
+        font-size: 1.2rem;
+    }
+
+    .title_section > img {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .yellow_color_msg {
+        font-size: 1rem;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio_name {
+        font-size: 2rem;
+    }
+
+    .people_list {
+        font-size: 0.8rem;
+        height: 10%;
+    }
+
+    .people_list > img {
+        margin: 0 5%;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .chat1 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .chat2 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .title_section {
+        height: 6%;
+        font-size: 1.2rem;
+    }
+
+    .title_section > img {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    .yellow_color_msg {
+        font-size: 0.8rem;
+    }
+}

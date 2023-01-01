@@ -1,0 +1,635 @@
+
+
+input:focus {
+    border: none;
+    outline: none;
+}    
+
+.main_yellow {
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    background-color: #F9D422;
+}
+
+.left_side_menu {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+
+.studio_title {
+    width: 100%;
+    height: 10%;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studio_title > img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-right: 15%;
+    object-fit: cover;
+}
+
+.studio_name {
+    font-size: 2.8rem;
+}
+
+.main_menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    /* background-color: red; */
+}
+
+.main_menu > a {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main_menu > a:hover{
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+
+.dashboard_selected {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+
+.main_menu > a > .main_menu_content > * {
+    vertical-align: middle;
+}
+
+
+.main_menu_content > img {
+    margin: 0 20px 0 0;
+}
+
+.main_white {
+    position: absolute;
+    display: flex;
+    width: 79%;
+    height: 95%;
+    left: 20%;
+    top: 0;
+    bottom: 0;
+    transform: translateY(2.5%);
+    border-radius: 3% 0 0 3%;
+    justify-content: center;
+    background-color: #F3F7FD;
+}
+
+
+.main_white_left {
+    width: 100%;
+    height: 90%;
+    padding: 2%;
+    /* background-color: grey; */
+}
+
+.top_div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+
+}
+
+.top_div > input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+}
+
+.notification_button {
+    width: 6%;
+    height: 100%;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    background-color: white;
+}
+.setting_button {
+    width: 6%;
+    height: 100%;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    background-color: white;
+}
+
+.graph_area {
+    margin-top: 1rem;
+    width: 100%;
+    height: 45%;
+    margin: 4% 0 5% 0;
+    /* background-color: red; */
+}
+
+.graph_area > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+}
+
+.barchart {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.bottom_left_div {
+    width: 100%;
+    height: 42%;
+    justify-content: space-between;
+    display: flex;
+    margin: 2% 0 2% 0;
+    /* background-color: red; */
+}
+
+.gridd {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem 2.5rem;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+
+.gridd_sub_div {
+    width: 25%;
+    height: 42%;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 1% 0%;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+}
+
+.gridd_sub_div > span {
+    font-size: 1.3rem;
+}
+.gridd_sub_div > p {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.percent_div {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    width: 25%;
+    height: 83%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3% 3%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+}
+
+.percent_div > span {
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+}
+
+.circleImage {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 1rem;
+    /* background-color: red; */
+
+}
+.circleImage > img {
+    display: block;
+    /* bottom: 8%;
+    left: 50%; */
+    width: 100%;
+    height: 100%;
+    /* transform: translateX(-50%); */
+}
+
+.eighty {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_white_right {
+    width: 50%;
+    height: 90%;
+    padding: 2%;
+    margin: 0 0 0 5%;
+    /* background-color: red; */
+}
+
+.dropdown_image {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly;    */
+    width: 100%;
+    height: 10%;
+    /* padding: 0 5%; */
+    border-radius: 10px;
+    margin-bottom: 4%;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    margin: 0 30% 0 0;
+}
+
+.content > img {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.studio_details{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    padding: 2% 0;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hClass{
+    margin: 20px 0;
+}
+
+.studio_details_divs{
+    width: 70%;
+    font-size: 1rem !important; 
+    margin: 0 5% 0 5%;
+    /* background-color: blue; */
+}
+
+.studio_details_divs > span {
+    font-size: 1.5rem;
+    margin: 0;
+
+}
+
+.studio_details_divs > p  {
+    margin: 3% 0;
+    text-align: start;
+    font-size: 1.2rem;
+    color: #636363;
+
+
+}
+
+.notification_section {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 7%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    background-color: white;
+}
+
+.notification_section > span {
+    margin: 0 5%;
+}
+
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main_menu > a {
+        font-size: 1.5rem;
+    }
+
+    .notification_section {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main_menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    .notification_section {
+        font-size: 1rem;
+        height: 8%;
+    }
+
+    .gridd_sub_div {
+        height: 30%;
+    }
+
+    .gridd_sub_div > span {
+        font-size: 1rem;
+    }
+
+    .gridd_sub_div > p {
+        font-size: 1rem;
+    }
+
+    .percent_div > span {
+        font-size: 1.5rem;
+    }
+
+    .percent_div {
+        height: 76%;
+    }
+
+    .eighty {
+        font-size: 2rem;
+    }
+    
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio_name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    .notification_section {
+        font-size: 0.8rem;
+        height: 8%;
+    }
+
+    .gridd_sub_div {
+        height: 30%;
+    }
+
+    .gridd_sub_div > span {
+        font-size: 1rem;
+    }
+
+    .gridd_sub_div > p {
+        font-size: 1rem;
+    }
+
+    .percent_div > span {
+        font-size: 1.5rem;
+    }
+
+    .percent_div {
+        height: 76%;
+    }
+
+    .eighty {
+        font-size: 2rem;
+    }
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio_name {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        margin: 0 15% 0 0;
+        font-size: 1.3rem;
+    }
+
+    .content > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    .notification_section {
+        font-size: 0.8rem;
+        height: 10%;
+    }
+
+    .gridd_sub_div {
+        height: 30%;
+    }
+
+    .gridd_sub_div > span {
+        font-size: 0.8rem;
+    }
+
+    .gridd_sub_div > p {
+        font-size: 0.8rem;
+    }
+
+    .percent_div > span {
+        font-size: 1.2rem;
+    }
+
+    .percent_div {
+        height: 70%;
+    }
+
+    .eighty {
+        font-size: 1.5rem;
+    }
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio_name {
+        font-size: 2rem;
+    }
+
+    .content {
+        margin: 0 15% 0 0;
+        font-size: 1.3rem;
+    }
+
+    .content > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .studio_details_divs {
+        font-size: 0.8rem;
+    }
+    .studio_details_divs > span {
+        font-size: 1.3rem;
+    }
+
+    .top_div {
+        height: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    .notification_section {
+        font-size: 0.8rem;
+        height: 10%;
+    }
+
+    .gridd_sub_div {
+        height: 30%;
+    }
+
+    .gridd_sub_div > span {
+        font-size: 0.8rem;
+    }
+
+    .gridd_sub_div > p {
+        font-size: 0.8rem;
+    }
+
+    .percent_div > span {
+        font-size: 1.2rem;
+    }
+
+    .percent_div {
+        height: 70%;
+    }
+
+    .eighty {
+        font-size: 1.5rem;
+    }
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio_name {
+        font-size: 2rem;
+    }
+
+    .content {
+        margin: 0 15% 0 0;
+        font-size: 1.3rem;
+    }
+
+    .content > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .studio_details_divs {
+        font-size: 0.8rem;
+    }
+    .studio_details_divs > span {
+        font-size: 1.3rem;
+    }
+
+    .top_div {
+        height: 2rem;
+    }
+}

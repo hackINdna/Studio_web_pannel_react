@@ -1,0 +1,208 @@
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main-menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main-menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    
+
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (min-height: 800px) and (max-height: 950px) {
+    .job-listed {
+        margin-top: 20px;
+    }
+
+    .box-top img {
+        width:  2.5rem;
+        height: 2.5rem;
+    }
+
+    .boxes h3 {
+        padding: 10px 0;
+    }
+
+    .boxes p {
+        padding: 5px 0 10px 0;
+    }
+
+    .promote-btn {
+        padding: 8px 20px;
+    }
+    
+    .top-div {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .main-job-section {
+        margin: 3%;
+    }
+
+    .main-content-top {
+        margin: 20px 0 10px 0;
+        font-size: 1.7rem;
+    }
+
+    .job-option-btn {
+        font-size: 1.2rem;
+        width: 8vw;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+
+    .job-listed {
+        /* background-color: blue; */
+        margin-top: 10px;
+    }
+
+    .box-top {
+        font-size: 1.2rem;
+    }
+
+    .box-top img {
+        width:  2rem;
+        height: 2rem;
+    }
+
+    .boxes h3 {
+        padding: 3px 0;
+        font-size: 1rem;
+    }
+
+    .boxes p {
+        padding: 5px 0 5px 0;
+        font-size: 0.8rem;
+    }
+
+    .promote-btn {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    
+    .top-div {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .main-job-section {
+        margin: 3%;
+    }
+
+    .main-content-top {
+        margin: 10px 0 10px 0;
+        font-size: 1.3rem;
+    }
+
+    .job-option-btn {
+        font-size: 1rem;
+        width: 8vw;
+    }
+}

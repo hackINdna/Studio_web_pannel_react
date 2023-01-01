@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.main_yellow {
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    background-color: #F9D422;
+}
+
+.left_side_menu {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+
+.studio_title {
+    width: 100%;
+    height: 10%;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studio_title > img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-right: 15%;
+    object-fit: cover;
+    
+}
+
+.studio_name {
+    font-size: 3rem;
+}
+
+.main_menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+}
+
+.main_menu > a {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main_menu > a:hover{
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.jobs_selected {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.main_menu > a > .main_menu_content > * {
+    vertical-align: middle;
+}
+
+
+.main_menu_content > img {
+    margin: 0 20px 0 0;
+}
+
+.main_white {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    height: 95%;
+    left: 20%;
+    top: 0;
+    bottom: 0;
+    transform: translateY(2.5%);
+    border-radius: 3% 0 0 3%;
+    justify-content: center;
+    background-color: #F3F7FD;
+}
+
+.left {
+    width: 35%;
+    height: 88%;
+    margin: 2%;
+    padding: 2%;
+    background-color: white;
+}
+
+.left_first {
+    position: relative;
+    width: 100%;
+}
+
+.designation_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#three_dot {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.shortlist_option {
+    width: 150px;
+    height: 180px;
+    padding: 10px 0;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    right: 0;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    cursor: pointer;
+}
+
+.shortlist_option hr {
+    border: none;
+    border-bottom: 1px solid #888888;
+    
+}
+
+.left_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0; 
+}
+
+.edit_btn {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0;
+    border: none;
+    background-color: #F9D422;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.left_studio_img {
+    width: fit-content;
+}
+
+.left_studio_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_studio_details {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    height: 3rem;
+}
+
+.left_studio_details img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    float: left;
+    object-fit: cover;
+}
+
+.posted_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job_main_points {
+    margin: 20px;
+    line-height: 20px;
+}
+
+.job_main_points ul li {
+    color: #F9D422;
+}
+
+.job_main_points ul li span {
+    color: black;
+}
+
+hr {
+    border: 2px solid #3B3B3B;
+    width: 100%;
+}
+
+.left_second {
+    margin: 20px 0;
+}
+
+.desc_details {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.left_third {
+    margin: 20px 0;
+}
+
+.right {
+    width: 55%;
+    height: 92%;
+    margin: 2%;
+}
+
+.right_first {
+    width: 100%;
+    height: 5%;
+}
+
+.search_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    border-radius: 3px;
+}
+
+/* .search_div > button {
+    margin: 0;
+} */
+
+.search_div input[type = "text"] {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.search_div input[type = "text"]:focus {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search_div img {
+    margin: 0 15px;
+    width: 20px;
+}
+
+
+.right_second {
+    width: 100%;
+    height: 6%;
+    margin: 15px 0;
+}
+
+.buttons_area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.notification_button {
+    width: fit-content;
+    height: 100%;
+    margin: 0 1% 0 2%;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    border: 0;
+}
+
+.notification_button img {
+    padding: 0 15px;
+}
+
+.setting_button {
+    width: fit-content;
+    height: 100%;
+    margin: 0 1% 0 1%;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    border: 0;
+}
+
+.setting_button img {
+    padding: 0 15px;
+}
+
+.filter_button {
+    width: fit-content;
+    height: 100%;
+    margin: 0 0 0 1%;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+    border: 0;
+}
+
+.filter_button img {
+    padding: 0 15px;
+}
+
+.right_third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    height: 88%;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 1.5% 2%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+}
+
+.box h3{
+    padding: 10px 0 10px 0;
+    color: #F9D422;
+}
+
+.box p {
+    padding: 5px 0 10px 0;
+}
+
+
+.box_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.box_top img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box > a {
+    margin-left: auto;
+}
+
+.promote_btn {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    background-color: #F9D422;
+    padding: 8px 20px;
+    cursor: pointer;
+}

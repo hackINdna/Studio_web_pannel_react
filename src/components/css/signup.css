@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Lusitana', sans-serif;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.white-div {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: #F3F7FD;
+}
+
+.yellow-div {
+    position: fixed;
+    text-align: center;
+    right: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #F9D422;
+}
+
+.login-gif {
+    position: fixed;
+    width: 45%;
+    top: 10%;
+}
+
+.login-text {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin: 5% 0 3% 0;
+}
+
+.username-div {
+    display: inline-block;
+    text-align: left;
+}
+
+
+input {
+    width: 30rem;
+    height: 3rem;
+    margin: 2rem auto 2rem auto;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-size: 1.5rem;
+    font-family: 'Lusitana', sans-serif;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+p {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    font-family: 'Lusitana', sans-serif;
+}
+
+label {
+    font-size: 2rem;
+    font-family: 'Lusitana', sans-serif;
+}
+
+button {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: white;
+    border-style: none;
+    font-size: 1.5rem;
+    font-family: 'Lusitana', sans-serif;
+}
+
+h4 {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.signup-button-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup a {
+    color: black;
+}
+
+.signup-aTag {
+    text-decoration: none;
+}
+
+.account-text {
+    text-align: center;
+}

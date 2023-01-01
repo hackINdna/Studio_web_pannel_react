@@ -1,0 +1,431 @@
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main-menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main-menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .upload-section {
+        height: 18%;
+    }
+    .banner-upload {
+        font-size: 1rem;
+        width: 15%;
+    }
+    .banner-upload > span {
+        font-size: 1.2rem;
+    }
+
+    .upload-button > img {
+        width: 3rem;
+        height: auto;
+    }
+    #section-1-1{
+        font-size: 1.2rem;
+    }
+
+    #section-1-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-2-1{
+        font-size: 1.2rem;
+    }
+
+    #section-2-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-3-1{
+        font-size: 1.2rem;
+    }
+    #section-3-1-key{
+        font-size: 1.2rem;
+    }
+
+    #section-3-1 > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > span {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1335px) and (max-width: 1440px) {
+
+    .upload-section {
+        height: 18%;
+    }
+
+    .banner-upload {
+        font-size: 1rem;
+        width: 15%;
+    }
+
+    .upload-button > img {
+        width: 3rem;
+        height: auto;
+    }
+
+    #section-1-1{
+        font-size: 1.2rem;
+    }
+
+    #section-1-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-2-1{
+        font-size: 1.2rem;
+    }
+
+    #section-2-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-3-1{
+        font-size: 1.2rem;
+    }
+    #section-3-1-key{
+        font-size: 1.2rem;
+    }
+
+    #section-3-1 > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > span {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1355px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .upload-section {
+        height: 18%;
+    }
+
+    .banner-upload {
+        font-size: 1rem;
+        width: 15%;
+    }
+
+    .upload-button > img {
+        width: 3rem;
+        height: auto;
+    }
+
+    #section-1-1{
+        font-size: 1.2rem;
+    }
+
+    #section-1-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-2-1{
+        font-size: 1.2rem;
+    }
+
+    #section-2-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-3-1{
+        font-size: 1.2rem;
+    }
+    #section-3-1-key{
+        font-size: 1.2rem;
+    }
+
+    #section-3-1 > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > span {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1220px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .upload-section {
+        height: 18%;
+    }
+
+    .banner-upload > span {
+        font-size: 1rem;
+    }
+    .banner-upload {
+        font-size: 0.8rem;
+        width: 15%;
+    }
+
+    .upload-button > img {
+        width: 3rem;
+        height: auto;
+    }
+
+    #section-1-1{
+        font-size: 1.2rem;
+    }
+
+    #section-1-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-2-1{
+        font-size: 1.2rem;
+    }
+
+    #section-2-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-3-1{
+        font-size: 1.2rem;
+    }
+    #section-3-1-key{
+        font-size: 1.2rem;
+    }
+
+    #section-3-1 > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > span {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    .upload-section {
+        height: 18%;
+    }
+
+    .banner-upload > span {
+        font-size: 1rem;
+    }
+    .banner-upload {
+        font-size: 0.8rem;
+        width: 15%;
+    }
+
+    .upload-button > img {
+        width: 3rem;
+        height: auto;
+    }
+
+    #section-1-1{
+        font-size: 1.2rem;
+    }
+
+    #section-1-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-2-1{
+        font-size: 1.2rem;
+    }
+
+    #section-2-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-3-1{
+        font-size: 1.2rem;
+    }
+    #section-3-1-key{
+        font-size: 1.2rem;
+    }
+
+    #section-3-1 > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > span {
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main-menu-content img {
+        width: 20px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+    .upload-section {
+        height: 18%;
+    }
+
+    .banner-upload > span {
+        font-size: 1rem;
+    }
+    .banner-upload {
+        font-size: 0.8rem;
+        width: 15%;
+    }
+
+    .upload-button > img {
+        width: 3rem;
+        height: auto;
+    }
+
+    #section-1-1{
+        font-size: 1rem;
+    }
+
+    #section-1-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-2-1{
+        font-size: 1rem;
+    }
+
+    #section-2-1 > input {
+        height: 2.5rem;
+    }
+
+    #section-3-1{
+        font-size: 1rem;
+    }
+    #section-3-1-key{
+        font-size: 1rem;
+    }
+
+    #section-3-1 > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > input {
+        height: 2.5rem;
+    }
+    #section-3-1-key > span {
+        font-size: 0.8rem;
+    }
+
+        
+}

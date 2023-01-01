@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.main_yellow {
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    background-color: #F9D422;
+}
+
+.left_side_menu {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+
+.studio_title {
+    width: 100%;
+    height: 10%;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studio_title > img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-right: 15%;
+    object-fit: cover;
+    
+}
+
+.studio_name {
+    font-size: 3rem;
+}
+
+.main_menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+}
+
+.main_menu > a {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main_menu > a:hover{
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.connection_selected {
+    font-size: 1.7rem;
+    line-height: 3vmax;
+    padding: 0 5% 0 5%;
+    margin: 0 0 5% 15%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.main_menu > a > .main_menu_content > * {
+    vertical-align: middle;
+}
+
+
+.main_menu_content > img {
+    margin: 0 20px 0 0;
+}
+
+.main_white {
+    position: absolute;
+    width: 79%;
+    height: 95%;
+    left: 20%;
+    top: 0;
+    bottom: 0;
+    transform: translateY(2.5%);
+    border-radius: 3% 0 0 3%;
+    justify-content: center;
+    background-color: #F3F7FD;
+}
+
+.top_div {
+    position: absolute;
+    left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin: 2vw 0;
+    height: 3rem;
+
+}
+
+.top_div > input {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding: 0 1rem ;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.18);
+}
+
+.notification_button {
+    width: 5%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    background-color: white;
+}
+
+.setting_button {
+    width: 5%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    background-color: white;
+}
+
+.filter_button {
+    width: 5%;
+    height: 100%;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    background-color: white;
+}
+
+.artist_name {
+    width: 60%;
+    max-height: 70vh;
+    height: fit-content;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8vw 2vw 2vw 2vw;
+    /* background-color: red;   */
+}
+
+.artist_details {
+    width: 40%;
+    height: fit-content;
+    padding: 2% 0;
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    font-size: 1.7rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.18);
+    border-radius: 8px;
+}
+
+.artist_details img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 20px 0 10px;
+}
+
+.follow_section {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 12vw;
+    height: 20vh;
+    right: -15px;
+    top: 20%;
+    /* background-color: blue; */
+}
+
+.btn {
+    width: 100%;
+    height: 7vh;
+    background-color: #F9D422;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    width: 100%;
+    height: 7vh;
+    background-color: #F9D422;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main_menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main_menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+    
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio_name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio_name {
+        font-size: 2.5rem;
+    }
+
+    .artist_details {
+        font-size: 1.3rem;
+        height: 10%;
+    }
+    .artist_details img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .follow_section {
+        width: 15vw;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    
+
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio_name {
+        font-size: 2rem;
+    }
+    .artist_details {
+        font-size: 1.3rem;
+        height: 10%;
+    }
+    .artist_details img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .follow_section {
+        width: 15vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main_menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main_menu_content img {
+        width: 25px;
+    }
+
+    .studio_title {
+        height: 8%;
+    }
+
+    .studio_title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio_name {
+        font-size: 2rem;
+    }  
+    .artist_details {
+        font-size: 1.3rem;
+        height: 10%;
+    }
+    .artist_details img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .follow_section {
+        width: 15vw;
+    }
+}
+

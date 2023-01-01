@@ -1,0 +1,202 @@
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main-menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main-menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        margin: 0 15% 0 0;
+        font-size: 1.3rem;
+    }
+
+    .content > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .people-list {
+        font-size: 1rem;
+    }
+
+    .people-list > img {
+        margin: 0 5%;
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    .people-list {
+        font-size: 1rem;
+    }
+
+    .people-list > img {
+        margin: 0 5%;
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .chat1 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .chat2 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .title-section {
+        height: 6%;
+        font-size: 1.2rem;
+    }
+
+    .title-section > img {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .yellow-color-msg {
+        font-size: 1rem;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    .people-list {
+        font-size: 0.8rem;
+        height: 10%;
+    }
+
+    .people-list > img {
+        margin: 0 5%;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .chat1 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .chat2 > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .title-section {
+        height: 6%;
+        font-size: 1.2rem;
+    }
+
+    .title-section > img {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    .yellow-color-msg {
+        font-size: 0.8rem;
+    }
+
+
+    
+}

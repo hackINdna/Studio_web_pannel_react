@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main-menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main-menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1355px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    
+
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    .bookmark > h1 {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media only screen and (max-height: 830px) {
+    .face-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .card span {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 18%;
+    }
+
+    .cards {
+        overflow: scroll;
+        height: 85%;
+    }
+}

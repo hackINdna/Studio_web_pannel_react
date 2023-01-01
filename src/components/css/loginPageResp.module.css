@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1250px) {
+    .username_div {
+        width: 40vw;
+    }
+
+    form input {
+        width: 94%;
+        font-size: 1.5rem;
+    }
+
+    form label {
+        font-size: 1.8rem;
+    }
+
+    .login_button {
+        width: 15vw;
+    }
+}
+
+@media only screen and (max-height: 680px) {
+
+    .login_text {
+        margin: 8% auto;
+    }
+}

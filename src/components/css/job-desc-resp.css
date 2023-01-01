@@ -1,0 +1,688 @@
+@media only screen and (min-width: 1633px) and (max-width: 1803px){
+    .main-menu > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1355px) and (max-width: 1633px) {
+    .main-menu > a {
+        margin: 0 0 5% 12%;
+        font-size: 1.3rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .posted-details > span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1355px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .posted-details > span {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (min-width: 1164px) and (max-width: 1220px) and (max-height: 1060px) {
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .studio-name {
+        font-size: 2.5rem;
+    }
+
+    .left {
+        height: 90%;
+    }
+
+    .left-third > span {
+        font-size: 0.8rem;
+    }
+    .left-third > h3 {
+        font-size: 1rem;
+    }
+    .job-desc-desc > span {
+        font-size: 0.8rem;
+    }
+
+    .left-third > h3 {
+        font-size: 1rem;
+    }
+
+    .box-top {
+        font-size: 1rem;
+    }
+    
+    .box h3 {
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+
+    .box p {
+        font-size: 0.8rem;
+    }
+
+    .right-third {
+        height: auto;
+        gap: 30px 0px;
+    }
+
+    .box-top > img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .posted-details > span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1164px) {
+    
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 1rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    .left {
+        height: 90%;
+    }
+
+    .left-third > span {
+        font-size: 0.8rem;
+    }
+    .left-third > h3 {
+        font-size: 1rem;
+    }
+    .job-desc-desc > span {
+        font-size: 0.8rem;
+    }
+
+    .left-third > h3 {
+        font-size: 1rem;
+    }
+
+    .box-top {
+        font-size: 1rem;
+    }
+    
+    .box h3 {
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+
+    .box p {
+        font-size: 0.8rem;
+    }
+
+    .right-third {
+        height: auto;
+        gap: 30px 0px;
+    }
+
+    .box-top > img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .posted-details > span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1081px) {
+    .gridd {
+        gap: 0rem 1.5rem;
+    }
+    .main-menu > a {
+        margin: 0 0 5% 10%;
+        font-size: 0.9rem;
+    }
+
+    .main-menu-content img {
+        width: 25px;
+    }
+
+    
+    .studio-title {
+        height: 8%;
+    }
+
+    .studio-title > img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .studio-name {
+        font-size: 2rem;
+    }
+
+    .left {
+        height: 90%;
+    }
+
+    .left-third > span {
+        font-size: 0.8rem;
+    }
+    .left-third > h3 {
+        font-size: 1rem;
+    }
+    .job-desc-desc > span {
+        font-size: 0.8rem;
+    }
+
+    .left-third > h3 {
+        font-size: 1rem;
+    }
+
+    .box-top {
+        font-size: 1rem;
+    }
+    
+    .box h3 {
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+
+    .box p {
+        font-size: 0.8rem;
+    }
+
+    .right-third {
+        height: auto;
+        gap: 30px 0px;
+    }
+
+    .box-top > img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .posted-details > span {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (min-height: 950px) and (max-height: 1020px) {
+    .job-main-points {
+        margin: 10px 20px;
+    }
+
+    .left-studio-details {
+        margin: 10px 0;
+    }
+
+    .left-studio-details > img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .left-studio-text {
+        font-size: 1rem;
+    }
+
+    .designation-div h2{
+        font-size: 1.2rem;
+    }
+
+    .left-top {
+        margin: 10px 0;
+    }
+
+    .edit-btn {
+        height: 25px;
+        width: 80px;
+        font-size: 0.8rem;
+    }
+    .right-third {
+        height: auto;
+        gap: 30px 0px;
+    }
+}
+
+@media only screen and (min-height: 800px) and (max-height: 950px) {
+    .job-listed {
+        background-color: red;
+        margin-top: 20px;
+    }
+
+    .box-top img {
+        width:  2.5rem;
+        height: 2.5rem;
+    }
+
+    .boxes h3 {
+        padding: 10px 0;
+    }
+
+    .boxes p {
+        padding: 5px 0 10px 0;
+    }
+
+    .promote-btn {
+        padding: 8px 20px;
+    }
+    
+    .top-div {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .main-job-section {
+        margin: 3%;
+    }
+
+    .main-content-top {
+        margin: 20px 0 10px 0;
+        font-size: 1.7rem;
+    }
+
+    .job-option-btn {
+        font-size: 1.2rem;
+        width: 8vw;
+    }
+
+    .job-main-points {
+        margin: 10px 20px;
+    }
+
+    .job-main-points ul li {
+        font-size: 0.8rem;
+    }
+
+    .left-studio-details {
+        margin: 5px 0;
+        height: 2rem;
+    }
+
+    .left-studio-details > img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .left-studio-text {
+        font-size: 0.8rem;
+    }
+
+    .designation-div h2{
+        font-size: 1.2rem;
+    }
+
+    .left-top {
+        margin: 10px 0;
+    }
+
+    .edit-btn {
+        height: 25px;
+        width: 80px;
+        font-size: 0.8rem;
+    }
+
+    .desc-details {
+        margin: 5px 0;
+        font-size: 0.8rem;
+    }
+
+    .right-second {
+        height: 4%;
+    }
+
+    .left-second {
+        margin: 10px 0;
+    }
+
+    .left-second h3 {
+        font-size: 1rem;
+    }
+    .left-third {
+        margin: 10px 0;
+    }
+    .right-third {
+        height: auto;
+        gap: 15px 0px;
+    }
+
+    .promote-btn {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-height: 740px) and (max-height: 800px) {
+
+    .job-listed {
+        /* background-color: blue; */
+        margin-top: 10px;
+    }
+
+    .box-top {
+        font-size: 1rem;
+    }
+
+    .box-top img {
+        width:  1.8rem;
+        height: 1.8rem;
+    }
+
+    .boxes h3 {
+        padding: 2px 0;
+        font-size: 0.8rem;
+    }
+
+    .boxes p {
+        padding: 5px 0 5px 0;
+        font-size: 0.7rem;
+    }
+    
+    .top-div {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .main-job-section {
+        margin: 3%;
+    }
+
+    .main-content-top {
+        margin: 10px 0 10px 0;
+        font-size: 1.3rem;
+    }
+
+    .job-option-btn {
+        font-size: 1rem;
+        width: 8vw;
+    }
+
+    .job-main-points {
+        margin: 10px 20px;
+    }
+
+    .job-main-points ul li {
+        font-size: 0.8rem;
+    }
+
+    .left-studio-details {
+        margin: 5px 0;
+        height: 2rem;
+    }
+
+    .left-studio-details > img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .left-studio-text {
+        font-size: 0.8rem;
+    }
+
+    .designation-div h2{
+        font-size: 1.2rem;
+    }
+
+    .left-top {
+        margin: 10px 0;
+    }
+
+    .edit-btn {
+        height: 25px;
+        width: 80px;
+        font-size: 0.8rem;
+    }
+
+    .desc-details {
+        margin: 5px 0;
+        font-size: 0.8rem;
+    }
+
+    .right-second {
+        height: 4%;
+    }
+
+    .left-second {
+        margin: 10px 0;
+    }
+
+    .left-second h3 {
+        font-size: 1rem;
+    }
+    .left-third {
+        margin: 10px 0;
+    }
+
+    .left-third span {
+        font-size: 0.8rem;
+    }
+    .right-third {
+        height: 88%;
+        gap: 15px 0px;
+        overflow: scroll;
+    }
+
+    .promote-btn {
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+
+    .job-desc-desc > span {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-height: 600px) and (max-height: 740px) {
+
+    .job-listed {
+        /* background-color: blue; */
+        margin-top: 10px;
+    }
+
+    .box-top {
+        font-size: 1rem;
+    }
+
+    .box-top img {
+        width:  1.8rem;
+        height: 1.8rem;
+    }
+
+    .boxes h3 {
+        padding: 2px 0;
+        font-size: 0.8rem;
+    }
+
+    .boxes p {
+        padding: 5px 0 5px 0;
+        font-size: 0.7rem;
+    }
+    
+    .top-div {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .main-job-section {
+        margin: 3%;
+    }
+
+    .main-content-top {
+        margin: 10px 0 10px 0;
+        font-size: 1.3rem;
+    }
+
+    .job-option-btn {
+        font-size: 1rem;
+        width: 8vw;
+    }
+
+    .job-main-points {
+        margin: 10px 20px;
+    }
+
+    .job-main-points ul li {
+        font-size: 0.8rem;
+    }
+
+    .left-studio-details {
+        margin: 5px 0;
+        height: 2rem;
+    }
+
+    .left-studio-details > img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .left-studio-text {
+        font-size: 0.8rem;
+    }
+
+    .designation-div h2{
+        font-size: 1.2rem;
+    }
+
+    .left-top {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .left-top img {
+        width: 15px;
+        height: auto;
+    }
+
+    .edit-btn {
+        height: 20px;
+        width: 60px;
+        font-size: 0.7rem;
+    }
+
+    .desc-details {
+        margin: 5px 0;
+        font-size: 0.8rem;
+    }
+
+    .right-first {
+        height: 4%;
+    }
+
+    .search-div input[type="text"] {
+        font-size: 12px;
+    }
+
+    .notification-button img, .setting-button img, .filter-button img {
+        width: 15px;
+        height: auto;
+        padding: 0 5px;
+    }
+
+    .right-second {
+        height: 4%;
+        margin: 5px 0;
+    }
+
+    .left-second {
+        margin: 10px 0;
+    }
+
+    .left-second h3 {
+        font-size: 1rem;
+    }
+    .left-third {
+        margin: 10px 0;
+    }
+
+    .left-third span {
+        font-size: 0.6rem;
+    }
+    .right-third {
+        height: 92%;
+        gap: 15px 0px;
+        overflow: scroll;
+    }
+
+    .promote-btn {
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+
+    .job-desc-desc > span {
+        font-size: 0.7rem;
+    }
+
+    .left {
+        padding: 1% 2% 2%;
+        overflow: scroll;
+    }
+}
